@@ -1,0 +1,33 @@
+div{		
+	background-color: blue;
+}
+
+.primeira{
+	background-color: coral;
+}
+
+#unico{
+	background-color: crimson;
+}
+
+p{
+	font-size: 20px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.tabela{
+	width: 70%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 10%;
+}
+
+tr, td, th{
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+	background-color: cadetblue;
+}
