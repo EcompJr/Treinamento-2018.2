@@ -1,0 +1,49 @@
+.box {
+	box-sizing: content-box;
+	width: 30%;
+	height: 100%;
+	border: 10px dotted black;
+	padding: 30px;
+}
+
+.box2{
+	box-sizing: border-box;
+	width: 30%;
+	height: 100%;
+	margin: 10px;
+	border: 10px solid pink; 
+	padding: 30px;
+}
+
+body{
+	background-color: lightblue;
+}
+
+@media only screen and (max-width: 992px){
+	body{
+		background-color: green;
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		background-color: brown;
+		font-size: 20px;
+	}
+}
+
+img{
+	width: 500px;
+	height: 250px;
+	float: right;
+}
+
+.bloco{
+	display: inline-block;
+	border: 1px solid black;
+	width: 200px;
+	height: 60px;
+	padding-left: 5px;
+	margin: 3px;
+}
