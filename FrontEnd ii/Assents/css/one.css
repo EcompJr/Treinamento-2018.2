@@ -1,0 +1,44 @@
+.box{
+    box-sizing: content-box;
+    width: 30%;
+    height: 100%;
+    border: 10px dotted black;
+    padding: 30px;
+}
+
+.box2{
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    border: 10px ridge black;
+    padding: 30px;
+}
+body{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 992px){
+    body{
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+}
+
+img{
+    width: 500px;
+    height: 300px;
+    /* float: left; */
+    display: block;
+}
+
+.bloco{
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 60;
+}
