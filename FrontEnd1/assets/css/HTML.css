@@ -1,0 +1,74 @@
+div{
+	background-color: red;
+
+}
+
+
+.Box1{
+	box-sizing: content-box;
+	width: 300px;
+	height: 100%;
+	border: 10px dotted black;
+}
+
+
+.Box2{
+	box-sizing: border-box;	
+	width: 300px;
+	height: 100%;
+	border: 10px solid black;
+}
+
+.batata{
+	color: blue;
+} 
+
+#Dois{
+	color: green; 
+}
+
+.hs{
+	color: blue;
+}
+
+.Tabelao{
+	background-color: #e6f7ff;
+	font-size: 15px;
+	color: #00344d;
+	width: 30%;
+	height: 20%;
+	border: 2px solid black;
+	border-collapse: collapse;
+
+	margin:20px 20px 20px 20px;
+}
+
+.bloco{
+	display: inline-block;
+	border: 1px solid black;
+	width: 200px;
+	height: 60px;
+	margin: 3px;
+}
+
+td,th,tr{
+	border: 2px solid black;	
+	text-align: left;
+	padding: 10px;
+}
+
+p{
+	font-size: 30px; color: blue
+} 
+
+ul{
+	list-style-type: square;
+}
+
+body{
+	color: purple;
+}
+
+
+
+
