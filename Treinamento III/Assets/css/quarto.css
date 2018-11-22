@@ -1,0 +1,21 @@
+body{
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+div+p{
+	background-color: aquamarine;
+	font-family: cursive;
+	font-size: 4px;
+}
+
+div>p{
+	background-color: orange;
+	font-family: cursive;
+	font-size: 50px;
+}
+
+.boxx{
+	border: 1px solid black;
+	padding: 20px;
+}
