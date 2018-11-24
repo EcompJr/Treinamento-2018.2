@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/quarto.css">
+    <title>Duas Lampadas</title>
+</head>
+<body>
+    <h1>Duas Lampadas</h1>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+        </form>
+    </div>
+    <img onclick="quebraLampada('lamp1')" onmouseleave="apagaLampada('lamp1')" onmouseover="acendeLampada('lamp1')" id="lamp1" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSp6RKb03wWf43hC36BXkwabVQ_Q4UelzZlQV3a-m_-Hr5pjyzWtw">
+    <img onclick="quebraLampada('lamp2')" onmouseleave="apagaLampada('lamp2')" onmouseover="acendeLampada('lamp2')" id="lamp2" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSp6RKb03wWf43hC36BXkwabVQ_Q4UelzZlQV3a-m_-Hr5pjyzWtw">
+
+    <script src="quarto.js">
+
+    </script>
+</body>
+</html>

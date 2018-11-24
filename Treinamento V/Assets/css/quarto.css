@@ -1,0 +1,22 @@
+body{
+    background-color: lightgreen;
+    font-family: cursive;
+}
+
+h1{
+    margin-left: 450px;
+}
+
+img{
+    margin-left: 250px;
+    width: 338px;
+    height: 440px;
+}
+
+#lamp1{
+    float: left;
+}
+
+#lamp2{
+    flaot: right;
+}

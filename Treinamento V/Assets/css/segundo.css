@@ -1,0 +1,23 @@
+body{
+    background-color: #17a2b8;
+    font-family: cursive;
+}
+
+h1{
+    margin-left: 380px;
+}
+
+img{
+    margin-left: 200px;
+    height: 60%;
+    width: 60%;
+}
+
+li{
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.lista{
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/segundo.css">
+    <title>Segundo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Menu de coisas</h1>
+        <br>
+        <div class="lista">
+            <ul>
+                <li onclick="mudarImagem('https://abrilexame.files.wordpress.com/2016/09/size_960_16_9_20151019-14270-1xaeqlk.jpg')">Draco Malfoy</li>
+                <li onclick="mudarImagem('https://fsmedia.imgix.net/e7/86/50/69/bfd5/47fb/8189/70313a9497b0/quotforest-of-dean-i-came-here-once-with-mum-and-dad-that-was-years-ago-its-just-how-i-remembe.png?rect=0%2C316%2C928%2C466&dpr=2&auto=format%2Ccompress&w=650')">Hermione Granger</li>
+                <li onclick="mudarImagem('http://mtv-intl.mtvnimages.com/uri/mgid:arc:content:mtv.com.br:9be2a92d-e1be-42f7-bbfd-e9ada1a4472d?ep=mtv.com.br&stage=live&format=jpg&quality=0.8')">Ronald Weasley</li>
+                <li onclick="mudarImagem('https://cdn.phouse.com.br/wp-content/uploads/2017/09/harry-potter.jpg')">Harry Potter</li>
+            </ul>
+        </div>
+
+        <br>
+    </div>
+
+    <div class="container">
+        <div>
+            <img id="novaFoto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdPQ4LFYQZCxr37sKLWAGJbWSLpsxJxvxnS7HPCLbDsSAoqirv" alt="?">
+        </div>
+    </div>
+
+    <script>
+        function mudarImagem(foto){
+            document.getElementById("novaFoto").src = foto
+        }
+    </script>
+
+</body>
+</html>
