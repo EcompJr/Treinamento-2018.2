@@ -1,0 +1,19 @@
+body{
+    background-color: #adebad;
+    text-align: center;
+}
+
+
+.lista{
+    margin: 0 auto;
+    width: fit-content;
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+img{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}

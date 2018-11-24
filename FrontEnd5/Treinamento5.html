@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>JS1</title>
+
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/Treinamento5.css">
+
+</head>
+
+<body>
+	<h1>MENU</h1>
+
+	<div>
+
+				<ul class="lista">
+					<li onclick="troca('assets/img/foca.jpg')"> Batafoca</li>
+					<li onclick="troca('assets/img/Sad-Boys.jpg')"> chapeuSadboys</li>
+					<li> </li>
+				</ul>
+				
+			<img src="assets/img/foto.jpg" id="foto">
+		</div>
+	<div>
+			<img src="assets/img/lampada.jpg" id="foto2" onclick="quebra('assets/img/quebrada.jpg', 'assets/img/Sad-Boys.jpg')" onmouseover="acende('assets/img/acesa.jpg')"
+			onmouseout="desliga('assets/img/lampada.jpg')">
+			
+	</div>
+		
+	
+	<script src="assets/js/Treinamento.js"></script>
+</body>
+
+</html>
