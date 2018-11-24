@@ -1,4 +1,4 @@
-.formulario{	
+﻿.formulario{	
 	background-color: #999999;
 	margin-left: 280px;
 	padding: 50px;
@@ -26,6 +26,7 @@
 p{
 	font-family: georgia;
 	font-size: 20px;
+	font-style: italic;
 }
 
 h2{
