@@ -1,0 +1,28 @@
+.formulario{
+  background-color: lightblue;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  padding: 60px;
+  width: 60%;
+  margin-top: 100px;
+}
+h2{
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: purple;
+}
+
+.tabela{
+  width: 60%;
+  padding: 60px;
+  background-color: lightblue;
+  margin-left: 350px;
+}
+
+.treinamento4{
+  font-size: 2px;
+  font-weight: bold;
+}
