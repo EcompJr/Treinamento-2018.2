@@ -1,0 +1,26 @@
+#corpo {
+  background-color: lightblue;
+}
+
+#novaFoto {
+  width: 60%;
+  height: 300px;
+  object-fit: contain;
+}
+
+#lampada {
+  margin-top: auto;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
+
+}
+#lampada2 {
+  margin-top: auto;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
+
+}
