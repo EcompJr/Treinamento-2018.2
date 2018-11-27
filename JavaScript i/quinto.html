@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quinto treinamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="vendor/bootstrap-4.1.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assents/css/quinto.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1> Hora do show </h1>
+
+    <ul>
+        <li onclick="mudarImagem('assents/img/Minato.png')">Minato</li>
+        <li onclick="mudarImagem('assents/img/Kushina.png')">Kushina</li>
+        <li onclick="mudarImagem('assents/img/Familia.png')">Familía Uzumaki e Uchiha</li>
+        <li onclick="mudarImagem('assents/img/Nishimiya.png')">Nishimiya</li>
+    </ul>
+
+    <img src="assents/img/Minato.png" id="minato" alt="">
+    <img src="assents/img/naruto.jpg" id="primeira" onmouseout="naruto()" onmouseover="kakashi()" onmousedown="hokage()">
+    <img src="assents/img/naruto.jpg" id="primeira2" onmouseout="naruto2()" onmouseover="kakashi2()" onmousedown="hokage2()">
+
+    <script src="index.js"></script>
+</body>
+
+<footer>
+    <script>
+        document.writeln("</br> Se uma pessoa não sacrificar nada, não poderá obter nada...");
+        document.writeln("</br> Today is: " + Date());
+    </script>
+</footer>
+
+</html>

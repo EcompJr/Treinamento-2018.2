@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Atividade de Treino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="vendor/bootstrap-4.1.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assents/css/Atv.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script>
+        var control = 0;
+
+        function changeColor() {
+            var chooseColorOne = document.getElementById("cor1");
+            var chooseColorTwo = document.getElementById("cor2");
+            if (control == 0) {
+                chooseColorOne.style.color = "#ff0000";
+                chooseColorTwo.style.color = "#ffff00";
+                control = 1;
+            }
+        }
+        function resetColor() {
+            var chooseColorOne = document.getElementById("cor1");
+            var chooseColorTwo = document.getElementById("cor2");
+            if (control == 1) {
+                chooseColorOne.style.color = "#000000";
+                chooseColorTwo.style.color = "#000000";
+                control = 0;
+            }
+        }
+    </script>
+    <div class="container">
+        <div id="cor1"> Melhor ficar no vermelho uma vez, </div>
+        <div id="cor2"> que amarelo uma vida inteira!<br /></div>
+        <div id="cor3"> -Marcel Telles <br /></div>
+        <button type="button" onclick="changeColor()" class="btn btn-danger">Change Color</button>
+        <button type="button" onclick="resetColor()" class="btn btn-primary">Reset</button>
+    </div>
+</body>
+
+</html>
